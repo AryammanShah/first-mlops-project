@@ -26,3 +26,6 @@ joblib.dump(model, "diabetes_model.pkl")
 print("✅ Model saved as diabetes_model.pkl")
 #python -m venv .mlops
 #.mlops\Scripts\activate
+#uvicorn main:app --reload
+#pip install -r requirements.txt
+#python train.py
